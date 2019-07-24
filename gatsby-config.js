@@ -64,6 +64,13 @@ module.exports = {
         logo: './src/images/favicon.png',
       },
     },
+    {
+      resolve: 'gatsby-source-shopify',
+      options: {
+        shopName: 'kvlly',
+        accessToken: 'f6d3f7fb7d36c0af521cbb8232183230',
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
