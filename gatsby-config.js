@@ -75,6 +75,12 @@ module.exports = {
         accessToken: process.env.SHOPIFY_SECRET,
       },
     },
+    {
+      resolve: `gatsby-plugin-env-variables`,
+      options: {
+        whitelist: ['SHOPIFY_STORE_NAME', 'SHOPIFY_SECRET'],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
