@@ -67,8 +67,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-shopify',
       options: {
-        shopName: 'kvlly',
-        accessToken: 'f6d3f7fb7d36c0af521cbb8232183230',
+        shopName: process.env.SHOPIFY_STORE_NAME,
+        accessToken: process.env.SHOPIFY_SECRET,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
