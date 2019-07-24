@@ -1,10 +1,8 @@
 import React from 'react'
 import Client from 'shopify-buy'
 
-let domain = process.env.SHOPIFY_STORE_NAME + '.myshopify.com'
-
 const client = Client.buildClient({
-  domain: domain,
+  domain: process.env.SHOPIFY_STORE_NAME + '.myshopify.com',
   storefrontAccessToken: process.env.SHOPIFY_SECRET,
 })
 
