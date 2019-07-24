@@ -10,7 +10,7 @@ const Shop = props => (
   <Layout>
     <SEO
       title="Shop | Kelly Vaughn"
-      image="https://kvlly.com/images/nowkelly.jpg"
+      image="https://kvlly.com/images/donut-time.jpg"
       description="Example Shopify/Gatsby headless commerce setup"
     />
     <div className="siteHeader">
@@ -45,13 +45,6 @@ export default Shop
 
 export const pageQuery = graphql`
   query {
-    speakingKelly: file(relativePath: { eq: "nowkelly.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 600) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
     allShopifyProduct {
       edges {
         node {
