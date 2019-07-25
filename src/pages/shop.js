@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 
-import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 import '../components/shop.scss'
 
 const Shop = props => (
-  <Layout>
+  <>
     <SEO
       title="Shop | Kelly Vaughn"
       image="https://kvlly.com/images/donut-time.jpg"
@@ -48,7 +47,7 @@ const Shop = props => (
         )
       })}
     </div>
-  </Layout>
+  </>
 )
 
 export default Shop

@@ -23,7 +23,11 @@ const LineItem = props => {
     <>
       {line_item.variant.selectedOptions.map((option, i) => {
         if (option.value !== 'Default Title') {
-          return <div key={i}>{`${option.name}: ${option.value}`}</div>
+          return (
+            <div className="option" key={i}>{`${option.name}: ${
+              option.value
+            }`}</div>
+          )
         } else {
           return null
         }
@@ -50,7 +54,10 @@ const LineItem = props => {
         <div className="vImage">{variantImage}</div>
         <div className="vContent">
           <div>
-            <a href={`/shop/${line_item.variant.product.handle}`}>
+            <a
+              className="product-title"
+              href={`/shop/${line_item.variant.product.handle}`}
+            >
               {line_item.title}
               <span className="mobile-price"> &ndash; ${variantPrice}</span>
             </a>

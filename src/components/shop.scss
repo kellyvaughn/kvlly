@@ -173,6 +173,15 @@
       display: none;
     }
   }
+  .continue-shopping {
+    margin-top: 24px;
+  }
+  .option {
+    font-size: 0.8em;
+    &:first-of-type {
+      margin-top: 8px;
+    }
+  }
   .item-content {
     display: flex;
     align-items: center;
@@ -262,7 +271,7 @@
         margin: 0;
       }
       > div:last-of-type button {
-        text-align: right;
+        float: right;
       }
     }
   }
