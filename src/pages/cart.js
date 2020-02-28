@@ -1,19 +1,19 @@
-import React from 'react'
+// import React from 'react'
 
-import CartContents from '../components/cartcontents'
-import SEO from '../components/seo'
+// import CartContents from '../components/cartcontents'
+// import SEO from '../components/seo'
 
-const CartPage = props => (
-  <>
-    <SEO
-      title="Cart | Kelly Vaughn"
-      image="https://kellyvaughn.co/images/coffee-kelly.jpg"
-    />
-    <h1>Cart &mdash;</h1>
-    <div className="cart">
-      <CartContents />
-    </div>
-  </>
-)
+// const CartPage = props => (
+//   <>
+//     <SEO
+//       title="Cart | Kelly Vaughn"
+//       image="https://kellyvaughn.co/images/coffee-kelly.jpg"
+//     />
+//     <h1>Cart &mdash;</h1>
+//     <div className="cart">
+//       <CartContents />
+//     </div>
+//   </>
+// )
 
-export default CartPage
+// export default CartPage
