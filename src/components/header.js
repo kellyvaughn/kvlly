@@ -1,12 +1,9 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
-import React, { useContext, useEffect, useState } from 'react'
-import ShopContext from './shopcontext'
+import React from 'react'
 import logo from '../images/kvlly.png'
 
 const Header = () => {
-  const context = useContext(ShopContext)
-
   return (
     <div>
       <div

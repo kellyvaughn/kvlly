@@ -1,23 +1,23 @@
-import React from 'react'
-import Client from 'shopify-buy'
+// import React from 'react'
+// import Client from 'shopify-buy'
 
-const client = Client.buildClient({
-  domain: `${process.env.SHOPIFY_STORE_NAME}.myshopify.com`,
-  storefrontAccessToken: process.env.SHOPIFY_SECRET,
-})
+// const client = Client.buildClient({
+//   domain: `${process.env.SHOPIFY_STORE_NAME}.myshopify.com`,
+//   storefrontAccessToken: process.env.SHOPIFY_SECRET,
+// })
 
-export const defaultStoreContext = {
-  client,
-  adding: false,
-  checkout: { lineItems: [] },
-  products: [],
-  shop: {},
-  filteredType: 'all',
-  addVariantToCart: () => {},
-  removeLineItem: () => {},
-  updateLineItem: () => {},
-}
+// export const defaultStoreContext = {
+//   client,
+//   adding: false,
+//   checkout: { lineItems: [] },
+//   products: [],
+//   shop: {},
+//   filteredType: 'all',
+//   addVariantToCart: () => {},
+//   removeLineItem: () => {},
+//   updateLineItem: () => {},
+// }
 
-const StoreContext = React.createContext(defaultStoreContext)
+// const StoreContext = React.createContext(defaultStoreContext)
 
-export default StoreContext
+// export default StoreContext
