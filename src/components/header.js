@@ -1,30 +1,9 @@
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
-import React, { useContext, useEffect, useState } from 'react'
-import ShopContext from './shopcontext'
+import React from 'react'
 import logo from '../images/kvlly.png'
 
-const countQuantity = lineItems => {
-  let quantity = 0
-
-  lineItems.forEach(item => {
-    quantity = quantity + item.quantity
-  })
-
-  return quantity
-}
-
 const Header = () => {
-  const context = useContext(ShopContext)
-  const { checkout } = context
-  const [quantity, setQuantity] = useState(
-    countQuantity(checkout ? checkout.lineItems : [])
-  )
-
-  useEffect(() => {
-    setQuantity(countQuantity(checkout ? checkout.lineItems : []))
-  }, [checkout])
-
   return (
     <div>
       <div
