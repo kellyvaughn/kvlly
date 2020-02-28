@@ -75,22 +75,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-shopify',
-      options: {
-        shopName: process.env.SHOPIFY_STORE_NAME,
-        accessToken: process.env.SHOPIFY_SECRET,
-        verbose: true,
-        paginationSize: 50,
-        updateMetafieldStorefrontVisibility: [
-          {
-            namespace: 'global',
-            key: 'intro',
-            ownerType: 'PRODUCT',
-          },
-        ],
-      },
-    },
-    {
       resolve: `gatsby-plugin-env-variables`,
       options: {
         whitelist: ['SHOPIFY_STORE_NAME', 'SHOPIFY_SECRET'],

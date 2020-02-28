@@ -56,8 +56,6 @@ const Header = () => {
           <div className="links">
             <Link to="/now">Now</Link>
             <Link to="/buy-kelly-coffee">Coffee</Link>
-            <Link to="/shop">Shop</Link>
-            <Link to="/cart">Cart {quantity !== 0 && `(${quantity})`}</Link>
           </div>
         </div>
       </div>
