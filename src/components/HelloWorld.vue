@@ -18,13 +18,6 @@
         >Author, Start Freelancing Today</a>
       </li>
       <li>
-        <a
-          href="https://patreon.com/startfreelancingtoday"
-          target="_blank"
-          rel="noopener"
-        >Organizer, Start Freelancing Today Community (Patreon)</a>
-      </li>
-      <li>
         <a href="https://shopkvlly.com" target="_blank" rel="noopener">Founder, KVLLY (Merch Shop)</a>
       </li>
       <li>
