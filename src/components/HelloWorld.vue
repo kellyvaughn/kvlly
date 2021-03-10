@@ -70,6 +70,14 @@
           >1 hour ($400)</a
         >
       </li>
+      <li>
+        <a
+          href="https://newsletter.thetaproom.com/subscribe"
+          target="_blank"
+          rel="noopener"
+          >Subscribe to my newsletter ($0)</a
+        >
+      </li>
     </ul>
   </div>
 </template>
