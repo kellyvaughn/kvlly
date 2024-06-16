@@ -111,7 +111,7 @@ const siteConfig: SiteConfig = {
     hero: {
         text: [
             "I'm **Kelly Vaughn**, an engineering leader and speaker based in Atlanta, GA. I'm currently Director of Engineering at Spot AI and I'm passionate about coaching individual contributors into leadership roles and mentoring engineering managers to be impactful, empowering leaders.",
-            'I run an online course titled [*Building Influence for Engineers & EMs*](https://maven.com/kellyvaughn) and conduct conference and corporate workshops on the same topic. I also write a weekly newsletter titled [*Lessons in Engineering Leadership*](https://engleadership.xyz).',
+            'I run an online course titled [*Building Influence for Engineers & EMs*](/course) and conduct conference and corporate workshops on the same topic. I also write a weekly newsletter titled [*Lessons in Engineering Leadership*](https://engleadership.xyz).',
             "A frequent podcaster and public speaker, I co-host the [*Ladybug Podcast*](https://ladybug.dev), have a recurring position on the [*Dev Interrupted*](https://devinterrupted.com) Podcast, and I also guest on others' podcasts and speak at conferences and events around the world.",
             "When I'm not working, you'll probably find me running, traveling to a new country, or spending time at a coffee shop to make a tiny dent in my never-ending book collection."
         ],
