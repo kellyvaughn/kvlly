@@ -1,0 +1,62 @@
+---
+import type { GetStaticPathsOptions, Page } from 'astro';
+import { type CollectionEntry, getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Button from '../../components/Button.astro';
+import siteConfig from '../../data/site-config';
+import { sortItemsByDateDesc } from '../../utils/data-utils';
+import SpeakingPreview from '../../components/SpeakingPreview.astro';
+
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+    const speaking = (await getCollection('speaking')).sort(sortItemsByDateDesc);
+    return paginate(speaking, { pageSize: 24 });
+}
+
+type Props = { page: Page<CollectionEntry<'projects'>> };
+
+const { page } = Astro.props;
+const speaking = page.data;
+
+const upcomingSpeaking = speaking.filter(({ data }) => {
+    const today = new Date();
+    const gigDate = new Date(data.publishDate);
+    return gigDate >= today;
+});
+
+const pastSpeaking = speaking.filter(({ data }) => {
+    const today = new Date();
+    const gigDate = new Date(data.publishDate);
+    return gigDate < today;
+});
+---
+
+<BaseLayout
+    title="Speaking Events"
+    description="Explore past and future speaking events with Kelly Vaughn"
+    image={{ src: '/kelly-vaughn.jpg', alt: 'Headshot of Kelly Vaughn' }}
+    showHeader={false}
+>
+    <h1 class="mb-12 text-2xl leading-tight font-serif italic sm:mb-16 sm:text-4xl">Speaking Events</h1>
+    <p class="mb-12 text-normal leading-normal">Take a look at past and upcoming speaking events. History goes back to 2022.</p>
+    <hr class="mb-12 border-t-2 border-gray-200 sm:mb-16" />
+    {
+        upcomingSpeaking?.length > 0 && (
+            <div class="mb-16 sm:mb-24">
+                <h2 class="mb-4 text-xl font-serif italic sm:mb-4 sm:text-2xl">Upcoming Speaking Events</h2>
+                {upcomingSpeaking.map((gig) => (
+                    <SpeakingPreview gig={gig} class="mb-10 sm:mb-12" headingLevel="h3" />
+                ))}
+            </div>
+        )
+    }
+    {
+        pastSpeaking?.length > 0 && (
+            <div class="mb-16 sm:mb-24">
+                <h2 class="mb-4 text-xl font-serif italic sm:mb-4 sm:text-2xl">Past Events</h2>
+                {pastSpeaking.map((gig) => (
+                    <SpeakingPreview gig={gig} class="mb-10 sm:mb-12" headingLevel="h3" />
+                ))}
+            </div>
+        )
+    }
+</BaseLayout>

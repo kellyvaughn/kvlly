@@ -33,17 +33,18 @@ export type SiteConfig = {
     socialLinks?: Link[];
     hero?: Hero;
     subscribe?: Subscribe;
-    postsPerPage?: number;
     projectsPerPage?: number;
+    postsPerPage?: number;
+    speakingPerPage?: number;
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Kelly Vaughn',
+    subtitle: 'Engineering Leader | Speaker | Author',
+    description: 'Personal website for Kelly Vaughn',
     image: {
-        src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        src: '/kelly-vaughn.jpg',
+        alt: 'Kelly Vaughn | Engineering Leader, Speaker, Author'
     },
     headerNavLinks: [
         {
@@ -51,56 +52,55 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
+            text: 'Speaking',
+            href: '/speaking'
         },
         {
-            text: 'Blog',
-            href: '/blog'
+            text: 'Newsletter',
+            href: 'https://engleadership.xyz'
         },
         {
-            text: 'Tags',
-            href: '/tags'
-        }
-    ],
-    footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
+            text: 'Course',
+            href: 'https://maven.com/kellyvaughn'
         },
         {
             text: 'Contact',
             href: '/contact'
+        }
+    ],
+    footerNavLinks: [
+        {
+            text: 'Newsletter',
+            href: 'https://engleadership.xyz'
         },
         {
-            text: 'Terms',
-            href: '/terms'
+            text: 'Course',
+            href: 'https://maven.com/kellyvaughn'
         },
         {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
+            text: 'Contact',
+            href: '/contact'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Twitter',
+            href: 'https://twitter.com/kvlly'
+        },
+        {
+            text: 'LinkedIn',
+            href: 'https://linkedin.com/in/kellyvaughn'
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://instagram.com/kelllyvaughn'
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        text: "I'm **Kelly Vaughn**, an engineering leader, entrepreneur, and side project aficionado. I'm currently Director of Engineering at Spot AI and I'm passionate about coaching individual contributors into leadership roles and mentoring engineering managers to be impactful, empowering leaders. When I'm not working, you'll probably find me running, traveling to a new country, or spending time at a coffee shop to make a tiny dent in my never-ending book collection.",
         image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            src: '/kelly-vaughn.jpg',
+            alt: 'Headshot of Kelly Vaughn'
         },
         actions: [
             {
@@ -114,8 +114,7 @@ const siteConfig: SiteConfig = {
         text: 'One update per week. All the latest posts directly in your inbox.',
         formUrl: '#'
     },
-    postsPerPage: 8,
-    projectsPerPage: 8
+    speakingPerPage: 8
 };
 
 export default siteConfig;

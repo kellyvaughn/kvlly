@@ -1,14 +1,8 @@
 ---
-title: Get in touch
+title: Get in Touch
 seo:
   title: Contact
-  description: Get in touch through email or social media! Let me know how I can help.
+  description: Get in touch with Kelly Vaughn
 ---
 
-Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, I'm all ears. Feel free to get in touch through any of the methods below:
-
-_Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
-
-_Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+Want to chat? Feel free to reach out to me below or via [email](mailto:hello@kvlly.com), [Twitter](https://twitter.com/kvlly), or [LinkedIn](https://www.linkedin.com/in/kellyvaughn). My DMs are always open!

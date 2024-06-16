@@ -1,0 +1,44 @@
+---
+import { type CollectionEntry, getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProjectPreview from '../../components/ProjectPreview.astro';
+import { sortItemsByDateDesc } from '../../utils/data-utils';
+
+export async function getStaticPaths() {
+    const speaking = (await getCollection('speaking')).sort(sortItemsByDateDesc);
+    return speaking.map((gig, index) => ({
+        params: { slug: gig.slug },
+        props: {
+            gig
+        }
+    }));
+}
+
+type Props = { gig: CollectionEntry<'speaking'> };
+
+const { gig } = Astro.props;
+const { title, type, event, publishDate, location, endDate, seo } = gig.data;
+const TitleTag = 'h1';
+
+const { Content } = await gig.render();
+
+const dateOptions: object = {
+	year: "numeric",
+	month: "long",
+	day: "numeric",
+};
+
+const formattedPublishDate = new Date(publishDate).toLocaleDateString("en-US", dateOptions);
+const formattedEndDate = endDate ? new Date(endDate).toLocaleDateString("en-US", dateOptions) : null;
+---
+
+<BaseLayout title={title} description={title} image={seo?.image} pageType="article" showHeader={false}>
+    <article class="mb-16 sm:mb-24">
+        <header class="mb-8">
+            <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight">{title}</h1>
+        </header>
+        <div class="max-w-none prose prose-dante sm:prose-lg">
+            <Content />
+        </div>
+    </article>
+</BaseLayout>
