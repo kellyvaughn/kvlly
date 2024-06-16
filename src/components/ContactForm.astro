@@ -1,5 +1,6 @@
 ---
 import Button from "./Button.astro";
+const labelClasses = "text-md mb-1 block italic leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1"
 ---
 
 <div class="feedback-form">
@@ -10,18 +11,19 @@ import Button from "./Button.astro";
     method="POST"
     action="/success"
   >
+    <input type="hidden" name="form-name" value="contact" />
+    <input type="hidden" name="subject" value="New contact form submission from %{name} (%{submissionId})" />
+    <label class={labelClasses} for="name">Name</label>
+    <input class="mb-6 w-full bg-transparent dark:border-gray-600 border border-main p-2" id="name" type="text" name="name" />
+    <label class={labelClasses} for="email">Email</label>
+    <input class="mb-6 w-full bg-transparent dark:border-gray-600 border border-main p-2" id="email" type="email" name="email" required />
+    <label class={labelClasses} for="feedback">Message</label>
+    <textarea class="mb-6 h-36 w-full bg-transparent dark:border-gray-600 border border-main p-2" id="contact" wrap="soft" name="contact" required></textarea>
     <p class="hidden">
       <label>
         Don’t fill this out if you’re human: <input name="bot-field" />
       </label>
     </p>
-    <input type="hidden" name="form-name" value="contact" />
-    <label class="text-md mb-1 block italic leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1" for="name">Name</label>
-    <input class="mb-6 w-full bg-transparent dark:border-gray-600 border border-main p-2" id="name" type="text" name="name" />
-    <label class="text-md mb-1 block italic leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1" for="email">Email</label>
-    <input class="mb-6 w-full bg-transparent dark:border-gray-600 border border-main p-2" id="email" type="email" name="email" required />
-    <label class="text-md mb-1 block italic leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1" for="feedback">Message</label>
-    <textarea class="mb-6 h-36 w-full bg-transparent dark:border-gray-600 border border-main p-2" id="contact" wrap="soft" name="contact" required></textarea>
     <Button type="submit">Submit</Button>
   </form>
 </div>
