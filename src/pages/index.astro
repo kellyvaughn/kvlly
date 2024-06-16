@@ -7,7 +7,6 @@ import SpeakingPreview from '../components/SpeakingPreview.astro';
 import siteConfig from '../data/site-config';
 import { sortItemsByDateDesc } from '../utils/data-utils';
 
-
 const speaking = (await getCollection('speaking')).sort(sortItemsByDateDesc);
 
 const upcomingSpeaking = speaking.filter(({ data }) => {
@@ -29,7 +28,7 @@ const pastSpeaking = speaking.filter(({ data }) => {
     {
         upcomingSpeaking?.length > 0 && (
             <div class="mb-16 sm:mb-24">
-                <h2 class="mb-4 text-xl font-serif italic sm:mb-4 sm:text-2xl">Upcoming Speaking Events</h2>
+                <h2 class="mb-4 text-xl font-serif italic sm:mb-4 sm:text-2xl">Upcoming speaking events</h2>
                 {upcomingSpeaking.map((gig) => (
                     <SpeakingPreview gig={gig} class="mb-10 sm:mb-12" headingLevel="h3" />
                 ))}
@@ -39,4 +38,15 @@ const pastSpeaking = speaking.filter(({ data }) => {
             </div>
         )
     }
+    <div class="mb-16 sm:mb-24">
+        <h2 class="mb-4 text-xl font-serif italic sm:mb-4 sm:text-2xl">What I'm up to</h2>
+        <ul class="list">
+            <li class="mb-4 prose prose-p">
+                I'm about to fly to Sweden to record a new season of <a href="https://ladybug.dev">Ladybug Podcast</a>. Season 7 will be focused entirely on engineering leadership, and the episode list is available on the Ladybug Podcast website. We're open to sponsorships if you're interested in reaching our large audience.
+            </li>
+            <li class="mb-4 prose prose-p">
+                I'm currently booking speaking engagements for 2025. If you're interested in having me speak at your event, please reach out to me <a href="/contact">here</a>.
+            </li>
+        </ul>
+    </ul>
 </BaseLayout>
