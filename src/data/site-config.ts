@@ -41,7 +41,7 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     title: 'Kelly Vaughn',
     subtitle: 'Engineering Leader | Speaker | Author',
-    description: 'Personal website for Kelly Vaughn',
+    description: 'Personal website for Kelly Vaughn | Engineering Leader, Speaker, Author',
     image: {
         src: '/kelly-vaughn.jpg',
         alt: 'Kelly Vaughn | Engineering Leader, Speaker, Author'
@@ -102,6 +102,10 @@ const siteConfig: SiteConfig = {
         {
             text: 'Instagram',
             href: 'https://instagram.com/kelllyvaughn'
+        },
+        {
+            text: 'Threads',
+            href: 'https://www.threads.net/@kelllyvaughn'
         }
     ],
     hero: {
