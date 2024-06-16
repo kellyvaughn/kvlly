@@ -61,6 +61,11 @@ Throughout my 8+ years of experience managing engineers and engineering leaders,
 
 ## Interested in corporate training or a workshop for your event?
 
+<figure>
+    <img src="/workshop.jpg" alt="Workshop held at RenderATL in June 2024" loading="lazy" decoding="async" />
+    <figcaption>Workshop held at RenderATL in June 2024</figcaption>
+</figure>
+
 > Invaluable content in this workshop. Worth the price of admission for me. Thanks!
 
 Treat your conference attendees or team to personalized leadership training. Over the course of four hours, we'll work together build a culture of influence within your organization. Head over to my [contact page](/contact) and reach out to discuss my corporate and workshop rates.
