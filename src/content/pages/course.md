@@ -68,4 +68,4 @@ Throughout my 8+ years of experience managing engineers and engineering leaders,
 
 > Invaluable content in this workshop. Worth the price of admission for me. Thanks!
 
-Treat your conference attendees or team to personalized leadership training. Over the course of four hours, we'll work together build a culture of influence within your organization. Head over to my [contact page](/contact) and reach out to discuss my corporate and workshop rates.
+Treat your conference attendees or team to personalized leadership training. Over the course of four hours, we'll work together build a culture of influence. Head over to my [contact page](/contact) and reach out to discuss my corporate and workshop rates.
