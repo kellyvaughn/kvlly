@@ -15,15 +15,9 @@ const upcomingSpeaking = speaking.filter(({ data }) => {
     return gigDate >= today;
 });
 
-const pastSpeaking = speaking.filter(({ data }) => {
-    const today = new Date();
-    const gigDate = new Date(data.publishDate);
-    return gigDate < today;
-});
-
 ---
 
-<BaseLayout title="Kelly Vaughn | Engineering Leader, Speaker, Author" description={siteConfig.description} image={siteConfig.image}>
+<BaseLayout description={siteConfig.description} image={siteConfig.image}>
     <Hero />
     {
         upcomingSpeaking?.length > 0 && (

@@ -39,7 +39,7 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Kelly Vaughn',
+    title: 'Kelly Vaughn | Engineering Leader, Speaker, Author',
     subtitle: 'Engineering Leader | Speaker | Author',
     description: 'Engineering Leader, Speaker, Author',
     image: {
