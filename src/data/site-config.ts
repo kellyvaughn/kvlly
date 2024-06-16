@@ -56,6 +56,10 @@ const siteConfig: SiteConfig = {
             href: '/speaking'
         },
         {
+            text: 'Course',
+            href: '/course'
+        },
+        {
             text: 'Contact',
             href: '/contact'
         },
@@ -66,10 +70,6 @@ const siteConfig: SiteConfig = {
         {
             text: 'Newsletter',
             href: 'https://engleadership.xyz'
-        },
-        {
-            text: 'Course',
-            href: 'https://maven.com/kellyvaughn'
         },
         {
             text: 'Podcast',

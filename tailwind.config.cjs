@@ -5,8 +5,8 @@ module.exports = {
     darkMode: 'class',
     theme: {
         fontFamily: {
-            sans: ['Inter', ...defaultTheme.fontFamily.sans],
-            serif: ['Newsreader', ...defaultTheme.fontFamily.serif]
+            sans: ['Source Sans Pro', ...defaultTheme.fontFamily.sans],
+            serif: ['EB Garamond']
         },
         extend: {
             textColor: {
@@ -59,6 +59,7 @@ module.exports = {
                         blockquote: {
                             border: 0,
                             fontFamily: theme('fontFamily.serif'),
+                            color: '#32a89e',
                             fontSize: '1.3125em',
                             fontStyle: 'italic',
                             fontWeight: 'normal',
