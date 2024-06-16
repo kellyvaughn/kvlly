@@ -15,13 +15,7 @@ seo:
 
 **People remember their favorite managers and technical leads not by the technical contributions they made but by the impact they left on their career.**
 
-The best engineering leaders are on a perpetual trail of self-improvement and recognize that great leaders build great teams.
-
-I've been working with and mentoring engineers and engineering leaders from companies small and large, and I often see the same trend: a great engineer is promoted to Engineering Manager because they're a great engineer, but they're never given the necessary tools and training to succeed as an EM.
-
-Throughout my 8+ years of experience managing engineers and engineering leaders, I have been honing and teaching my methodology for bringing the human side of management to the forefront to turn good engineers and managers into great leaders. Leadership isn't about your job title; it's about influence, and my proven methodology helps you build the influence you strive to have to make an impact on your organization and in your professional life.
-
-<a class='flex items-center justify-center pt-1 pl-2 pr-2 pb-1 text-main bg-main border border-main rounded-full transition hover:bg-muted text-md italic font-serif' href='https://maven.com/kellyvaughn'>Sign up for the next cohort</a>
+The best engineering leaders are on a perpetual trail of self-improvement and recognize that great leaders build great teams. Engineers moving into management are often not taught the ropes of how to be a great leader, which can be a huge barrier to their success.
 
 ---
 
@@ -32,6 +26,10 @@ Throughout my 8+ years of experience managing engineers and engineering leaders,
 - Effective communication with your direct reports, peers, and upper management
 
 - Asking for and delivering constructive, actionable feedback
+
+&nbsp;
+
+<a class='flex items-center justify-center pt-1 pl-2 pr-2 pb-1 text-main bg-main border border-main rounded-full transition hover:bg-muted text-md italic font-serif' href='https://maven.com/kellyvaughn'>Sign up for the next cohort</a>
 
 ---
 
@@ -52,3 +50,17 @@ Throughout my 8+ years of experience managing engineers and engineering leaders,
 &nbsp;
 
 <a class='flex items-center justify-center pt-1 pl-2 pr-2 pb-1 text-main bg-main border border-main rounded-full transition hover:bg-muted text-md italic font-serif' href='https://maven.com/kellyvaughn'>Sign up for the next cohort</a>
+
+---
+
+## Why trust me?
+
+I've been working with and mentoring engineers and engineering leaders from companies small and large, and I often see the same trend: a great engineer is promoted to Engineering Manager because they're a great engineer, but they're never given the necessary tools and training to succeed as an EM.
+
+Throughout my 8+ years of experience managing engineers and engineering leaders, I have been honing and teaching my methodology for bringing the human side of management to the forefront to turn good engineers and managers into great leaders. Leadership isn't about your job title; it's about influence, and my proven methodology helps you build the influence you strive to have to make an impact on your organization and in your professional life.
+
+## Interested in corporate training or a workshop for your event?
+
+> Invaluable content in this workshop. Worth the price of admission for me. Thanks!
+
+Treat your conference attendees or team to personalized leadership training. Over the course of four hours, we'll work together build a culture of influence within your organization. Head over to my [contact page](/contact) and reach out to discuss my corporate and workshop rates.
