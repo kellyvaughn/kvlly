@@ -12,11 +12,11 @@ const labelClasses = "text-md mb-1 block italic leading-tight font-serif font-me
     action="/success"
   >
     <input type="hidden" name="form-name" value="contact" />
-    <input type="hidden" name="subject" value="New contact form submission from %{name} (%{submissionId})" />
+    <input type="hidden" name="subject" value="New contact form submission" />
     <label class={labelClasses} for="name">Name</label>
     <input class="mb-6 w-full bg-transparent dark:border-gray-600 border border-main p-2" id="name" type="text" name="name" />
     <label class={labelClasses} for="email">Email</label>
-    <input class="mb-6 w-full bg-transparent dark:border-gray-600 border border-main p-2" id="email" type="email" name="email" required />
+    <input type="email" name="email" id="email" class="mb-6 w-full bg-transparent dark:border-gray-600 border border-main p-2" required />
     <label class={labelClasses} for="feedback">Message</label>
     <textarea class="mb-6 h-36 w-full bg-transparent dark:border-gray-600 border border-main p-2" id="contact" wrap="soft" name="contact" required></textarea>
     <p class="hidden">
