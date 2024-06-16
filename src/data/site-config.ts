@@ -41,7 +41,7 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     title: 'Kelly Vaughn',
     subtitle: 'Engineering Leader | Speaker | Author',
-    description: 'Personal website for Kelly Vaughn | Engineering Leader, Speaker, Author',
+    description: 'Engineering Leader, Speaker, Author',
     image: {
         src: '/kelly-vaughn.jpg',
         alt: 'Kelly Vaughn | Engineering Leader, Speaker, Author'
