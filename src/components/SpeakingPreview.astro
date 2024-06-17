@@ -1,11 +1,10 @@
 ---
 import { type CollectionEntry } from 'astro:content';
-import ArrowRight from '../icons/ArrowRight.astro';
 
 type Props = { gig: CollectionEntry<'speaking'>; class?: string; headingLevel?: 'h2' | 'h3' };
 
 const { gig, class: className, headingLevel = 'h2' } = Astro.props;
-const { title, type, event, publishDate, location, endDate } = gig.data;
+const { title, type, event, publishDate, location, endDate, link } = gig.data;
 const TitleTag = headingLevel;
 
 const dateOptions: object = {
@@ -23,7 +22,7 @@ const formattedEndDate = endDate ? new Date(endDate).toLocaleDateString("en-US",
         <TitleTag
             class="text-xl leading-tight font-serif font-medium group-hover:underline group-hover:decoration-dashed group-hover:underline-offset-4 group-hover:decoration-1 sm:text-2xl"
         >
-            {event} ({location})
+            {link ? <a href={link}>{event} ({location})</a> : `${event} (${location})`}
         </TitleTag>
         {type && <div class="mt-1 text-sm leading-normal">{formattedPublishDate}{formattedEndDate && ` - ${formattedEndDate}`} | {type}</div>}
         <div class="mt-1 text-sm leading-normal italic">{title}</div>

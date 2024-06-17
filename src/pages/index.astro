@@ -23,7 +23,7 @@ const upcomingSpeaking = speaking.filter(({ data }) => {
         upcomingSpeaking?.length > 0 && (
             <div class="mb-16 sm:mb-24">
                 <h2 class="mb-4 text-xl font-serif italic sm:mb-4 sm:text-2xl">Upcoming speaking events</h2>
-                {upcomingSpeaking.map((gig) => (
+                {upcomingSpeaking.toReversed().map((gig) => (
                     <SpeakingPreview gig={gig} class="mb-10 sm:mb-12" headingLevel="h3" />
                 ))}
                 <div class="mt-12 sm:mt-16">

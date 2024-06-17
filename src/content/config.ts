@@ -49,7 +49,8 @@ const speaking = defineCollection({
         event: z.string().optional(),
         location: z.string(),
         endDate: z.coerce.date().optional(),
-        seo: seoSchema.optional()
+        seo: seoSchema.optional(),
+        link: z.string().optional()
     })
 });
 
