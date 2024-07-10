@@ -69,7 +69,7 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Newsletter',
-            href: 'https://engleadership.xyz'
+            href: 'https://engleadership.com'
         },
         {
             text: 'Podcast',
@@ -79,7 +79,7 @@ const siteConfig: SiteConfig = {
     footerNavLinks: [
         {
             text: 'Newsletter',
-            href: 'https://engleadership.xyz'
+            href: 'https://engleadership.com'
         },
         {
             text: 'Course',
