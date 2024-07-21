@@ -43,6 +43,7 @@ Here we go!
 ### No white-majority, all-men lineups
 
 - Our engineering and engineering leadership community is diverse, and your speaker lineup should be too.
+- I will not speak about being a woman in tech. I cannot and will not speak on behalf of all women. My experience is uniquely mine. Please avoid this question for Q&A or in a talk.
 
 ### Recordings/Intellectual Property
 
