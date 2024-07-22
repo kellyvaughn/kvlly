@@ -4,7 +4,7 @@ export default async (req: Request) => {
     const redirects = [
         {
             from: 'sub',
-            to: 'https://engleadership.com/subscribe?utm_source=twitter_profile&utm_medium=profile_link&utm_campaign=twitter_profile_link'
+            to: 'https://modernleader.is/subscribe?utm_source=twitter_profile&utm_medium=profile_link&utm_campaign=twitter_profile_link'
         }
     ];
 
