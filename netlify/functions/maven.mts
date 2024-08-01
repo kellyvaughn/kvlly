@@ -14,12 +14,14 @@ export default async (req: Request) => {
         body: `{"email":"${req.email}","reactivate_existing":false,"send_welcome_email":false,"utm_source":"Maven","utm_campaign":"waitlist","utm_medium":"import","referring_site":"www.maven.com","custom_fields":[{"name":"Maven","value":"true"}]}`
     };
 
-    try {
-        const response = await fetch(url, options);
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.error(error);
+    if (req.event === 'waitlist.joined') {
+        try {
+            const response = await fetch(url, options);
+            const data = await response.json();
+            console.log(data);
+        } catch (error) {
+            console.error(error);
+        }
     }
 };
 
