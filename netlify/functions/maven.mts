@@ -2,10 +2,6 @@ import type { Config } from '@netlify/functions';
 
 export default async (req: Request) => {
     const body = await req.json();
-    const res = body.data;
-
-    console.log(body);
-    console.log(res);
 
     const url = 'https://api.beehiiv.com/v2/publications/pub_190d9520-1141-44f1-8790-19a2b81e35e5/subscriptions';
     const options = {
@@ -15,10 +11,10 @@ export default async (req: Request) => {
             Accept: 'application/json',
             Authorization: `Bearer ${process.env.BEEHIIV_API_KEY}`
         },
-        body: `{"email":"${res.email}","reactivate_existing":false,"send_welcome_email":false,"utm_source":"Maven","utm_campaign":"waitlist","utm_medium":"import","referring_site":"www.maven.com","custom_fields":[{"name":"Maven","value":"true"}]}`
+        body: `{"email":"${body.user.email}","reactivate_existing":false,"send_welcome_email":false,"utm_source":"Maven","utm_campaign":"waitlist","utm_medium":"import","referring_site":"www.maven.com","custom_fields":[{"name":"Maven","value":"true"}]}`
     };
 
-    if (res.event === 'waitlist.joined') {
+    if (body.event === 'waitlist.joined') {
         try {
             const response = await fetch(url, options);
             const data = await response.json();
