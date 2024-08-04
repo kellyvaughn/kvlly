@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ContactForm from '../components/ContactForm.astro';
+import PppForm from '../components/PppForm.astro';
 
 export async function getStaticPaths() {
     const pages = await getCollection('pages');
@@ -28,4 +29,5 @@ const { Content } = await page.render();
         </div>
     </article>
     {page.slug === 'contact' && <ContactForm />}
+    {page.slug === 'ppp' && <PppForm />}
 </BaseLayout>

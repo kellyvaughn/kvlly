@@ -1,21 +1,23 @@
 ---
-title: Building Influence For Engineers & EMs
+title: Management Fundamentals for Tech Leaders
 seo:
-  title: Building Influence For Engineers & EMs
+  title: Management Fundamentals for Tech Leaders
   description: Learn the 3 key skills you need to be an impactful leader in your engineering org
   image:
     src: '/kelly-vaughn.jpg'
 ---
 
-## Learn the 3 key skills you need to be an impactful leader within your engineering organization, regardless of your job title
+## Learn the 3 key skills you need to be an impactful technical leader
 
-![Heading for Building Influence for Engineers & EMs](/course.jpg)
+![Heading for Management Fundamentals for Tech Leaders](/course.jpg)
 
 ## What makes a great engineering leader?
 
-**People remember their favorite managers and technical leads not by the technical contributions they made but by the impact they left on their career.**
+**Tech leaders are remembered not just for their technical prowess, but for the lasting impact they have on their team's careers and success.**
 
-The best engineering leaders are on a perpetual trail of self-improvement and recognize that great leaders build great teams. Engineers moving into management are often not taught the ropes of how to be a great leader, which can be a huge barrier to their success.
+This course equips both new and experienced software engineering managers with the essential skills to amplify their influence and drive team performance.
+
+**Over 100 software engineers and engineering managers** have already enhanced their leadership capabilities through this course. Join them and transform your approach to tech leadership.
 
 ---
 
@@ -29,27 +31,33 @@ The best engineering leaders are on a perpetual trail of self-improvement and re
 
 &nbsp;
 
-<a class='flex items-center justify-center pt-1 pl-2 pr-2 pb-1 text-main bg-main border border-main rounded-full transition hover:bg-muted text-md italic font-serif' href='https://maven.com/kellyvaughn'>Sign up for the next cohort</a>
+<a class='flex items-center justify-center pt-1 pl-2 pr-2 pb-1 text-main bg-main border border-main rounded-full transition hover:bg-muted text-md italic font-serif' href='https://maven.com/kellyvaughn/engineering-management'>Sign up for the next cohort</a>
 
 ---
 
-> I recently completed Kelly’s course on ‘Building Influence for Engineers and EMs’, and I’m thoroughly impressed. Days after finishing, I find myself still unpacking the wealth of knowledge and insights provided. Kelly expertly laid out the essential foundations for participating in and constructing high-performance software engineering teams. What set this course apart was its interactive nature, making it far more engaging and enjoyable than any other online course I’ve experienced. Highly recommended for those looking to elevate their team’s performance and their personal impact within the tech space.
+> I recently completed Kelly’s course, and I’m thoroughly impressed. Days after finishing, I find myself still unpacking the wealth of knowledge and insights provided. Kelly expertly laid out the essential foundations for participating in and constructing high-performance software engineering teams.
+
+> What set this course apart was its interactive nature, making it far more engaging and enjoyable than any other online course I’ve experienced.
+
+> Highly recommended for those looking to elevate their team’s performance and their personal impact within the tech space.
 
 ---
 
 ## For the duration of your cohort you'll receive:
 
-- Over 4 hours of engaging live sessions easy to attend even during a busy work week
+- 4.5 hours of engaging live virtual sessions spread over 3 days (1.5 hours per day), easy to attend even during a busy work week. Sessions are held on Zoom from 12:00 - 1:30 PM ET
 
 - Hands-on learning by walking through case studies and real life examples with your cohort
 
 - Templates you can immediately start using on the job
 
-- Plus an in-depth live Q&A session to get immediate answers to your on-the-job questions
+- In-depth live Q&A session to get immediate answers to your on-the-job questions
+
+- Recordings and slides of all sessions for future reference and review
 
 &nbsp;
 
-<a class='flex items-center justify-center pt-1 pl-2 pr-2 pb-1 text-main bg-main border border-main rounded-full transition hover:bg-muted text-md italic font-serif' href='https://maven.com/kellyvaughn'>Sign up for the next cohort</a>
+<a class='flex items-center justify-center pt-1 pl-2 pr-2 pb-1 text-main bg-main border border-main rounded-full transition hover:bg-muted text-md italic font-serif' href='https://maven.com/kellyvaughn/engineering-management'>Sign up for the next cohort</a>
 
 ---
 
