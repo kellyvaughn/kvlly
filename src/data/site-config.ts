@@ -89,7 +89,7 @@ const siteConfig: SiteConfig = {
     socialLinks: [
         {
             text: 'Bluesky',
-            href: 'https://bluesky.app/profile/kvlly.com'
+            href: 'https://bsky.app/profile/kvlly.com'
         },
         {
             text: 'LinkedIn',
