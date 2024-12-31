@@ -106,8 +106,8 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         text: [
-            "I'm **Kelly Vaughn**, an engineering leader and speaker based in Atlanta, GA. I'm currently Director of Engineering at Spot AI and I'm passionate about coaching individual contributors into leadership roles and mentoring engineering managers to be impactful, empowering leaders.",
-            'I run an online course titled [*Management Fundamentals for Tech Leaders*](/course) and conduct conference and corporate workshops on the same topic. I also write a weekly newsletter titled [*The Modern Leader*](https://modernleader.is/subscribe).',
+            "I'm **Kelly Vaughn**, an engineering leader and speaker based in Atlanta, GA. I'm currently Director of Engineering at Spot AI and I'm passionate about coaching individual contributors into leadership roles and mentoring managers to be impactful, empowering leaders.",
+            'I run a course titled [*Management Fundamentals for the Modern Leader*](/course) and conduct conference and corporate workshops on the same topic. I also write a weekly newsletter titled [*The Modern Leader*](https://modernleader.is/subscribe).',
             'You may see me speaking on podcasts or at conferences around the world.',
             "When I'm not working, you'll probably find me running, traveling to a new country, or spending time at a coffee shop to make a tiny dent in my never-ending book collection."
         ],
