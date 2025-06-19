@@ -68,18 +68,26 @@ const siteConfig: SiteConfig = {
             href: ''
         },
         {
-            text: 'Newsletter',
+            text: '✉️ Modern Leader',
             href: 'https://modernleader.is/subscribe'
+        },
+        {
+            text: '✉️ After Burnout',
+            href: 'https://afterburnout.co'
         }
     ],
     footerNavLinks: [
         {
-            text: 'Newsletter',
+            text: 'Modern Leader',
             href: 'https://modernleader.is/subscribe'
         },
         {
-            text: 'Course',
-            href: 'https://maven.com/kellyvaughn'
+            text: 'After Burnout',
+            href: 'https://afterburnout.co'
+        },
+        {
+            text: 'Course (20% off through Sunday!)',
+            href: 'https://maven.com/kellyvaughn/engineering-management'
         },
         {
             text: 'Contact',
@@ -106,8 +114,8 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         text: [
-            "I'm **Kelly Vaughn**, an engineering leader and speaker based in Atlanta, GA. I'm currently Director of Engineering at Spot AI and I'm passionate about coaching individual contributors into leadership roles and mentoring managers to be impactful, empowering leaders.",
-            'I run a course titled [*Management Fundamentals for the Modern Leader*](/course) and conduct conference and corporate workshops on the same topic. I also write a weekly newsletter titled [*The Modern Leader*](https://modernleader.is/subscribe).',
+            "I'm **Kelly Vaughn**, an engineering leader and speaker based in Atlanta, GA. I'm currently a Sr. Engineering Manager at Zapier and I'm passionate about coaching individual contributors into leadership roles and mentoring managers to be impactful, empowering leaders.",
+            'I run a course titled [*Management Fundamentals for the Modern Leader*](/course) and conduct conference and corporate workshops on the same topic. I also write two weekly newsletters titled [*The Modern Leader*](https://modernleader.is/subscribe) and [*After Burnout*](https://afterburnout.co).',
             'You may see me speaking on podcasts or at conferences around the world.',
             "When I'm not working, you'll probably find me running, traveling to a new country, or spending time at a coffee shop to make a tiny dent in my never-ending book collection."
         ],
