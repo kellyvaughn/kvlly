@@ -1,7 +1,7 @@
 ---
-title: Management Fundamentals for the Modern Leader
+title: Engineering Leadership in the AI Era
 seo:
-  title: Management Fundamentals for the Modern Leader
+  title: Engineering Leadership in the AI Era
   description: Learn the 3 key skills you need to be an impactful leader in your organization
   image:
     src: '/kelly-vaughn.jpg'
@@ -9,7 +9,7 @@ seo:
 
 ## Learn the 3 key skills you need to be an impactful leader
 
-![Heading for Management Fundamentals for the Modern Leader](/course.jpg)
+![Heading for Engineering Leadership in the AI Era](/course.jpg)
 
 ## What makes a great leader?
 
