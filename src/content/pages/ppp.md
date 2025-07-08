@@ -1,7 +1,7 @@
 ---
-title: Purchasing Power Parity for Management Fundamentals for Tech Leaders
+title: Purchasing Power Parity for Engineering Leadership in the AI Era
 seo:
-  title: Purchasing Power Parity for Management Fundamentals for Tech Leaders
+  title: Purchasing Power Parity for Engineering Leadership in the AI Era
   description: Fill out this form to request a PPP discount for the course.
   image:
     src: '/course.jpg'
@@ -9,7 +9,7 @@ seo:
 
 **Education and personal development should be accessible to everyone, regardless of their financial circumstances or geographic location.**
 
-That's why I'm proud to offer Purchasing Power Parity (PPP) for my course, [Management Fundamentals for Tech Leaders](https://maven.com/kellyvaughn/engineering-management).
+That's why I'm proud to offer Purchasing Power Parity (PPP) for my course, [Engineering Leadership in the AI Era](https://maven.com/kellyvaughn/engineering-management).
 
 ## What is Purchasing Power Parity?
 
