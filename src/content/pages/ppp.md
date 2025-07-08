@@ -35,4 +35,4 @@ Purchasing Power Parity adjusts the cost of the course based on your location an
 
 If you have any questions about our Purchasing Power Parity policy, please [reach out](/contact).
 
-Thank you for your interest in Management Fundamentals for Tech Leaders. I look forward to welcoming you to the next cohort!
+Thank you for your interest in the course. I look forward to welcoming you to the next cohort!
