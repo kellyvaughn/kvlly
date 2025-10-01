@@ -117,7 +117,7 @@ const siteConfig: SiteConfig = {
             "I'm **Kelly Vaughn**, an engineering leader and speaker based in Atlanta, GA. I'm currently a Sr. Engineering Manager at Zapier and I'm passionate about coaching individual contributors into leadership roles and mentoring managers to be impactful, empowering leaders.",
             'I run a course titled [*Engineering Leadership in the AI Era*](/course) and conduct conference and corporate workshops on the same topic. I also write two weekly newsletters titled [*The Modern Leader*](https://modernleader.is/subscribe) and [*After Burnout*](https://afterburnout.co).',
             'You may see me speaking on podcasts or at conferences around the world.',
-            "When I'm not working, you'll probably find me running, traveling to a new country, or spending time at a coffee shop to make a tiny dent in my never-ending book collection."
+            "When I'm not working, you'll probably find me at Pilates, running, traveling to a new country, or spending time at a coffee shop to make a tiny dent in my never-ending book collection."
         ],
         image: {
             src: '/kelly-vaughn.jpg',

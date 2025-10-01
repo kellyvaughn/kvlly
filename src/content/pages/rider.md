@@ -52,11 +52,11 @@ Here we go!
 
 ### Virtual events
 
-- I'll always prever live virtual events over pre-recorded videos. Pre-recorded videos require idealized perfection (aka a significant mount of time recording, re-recording, and editing), and I prefer the more "human" aspect of giving a talk live.
+- I'll always prefer live virtual events over pre-recorded videos. Pre-recorded videos require idealized perfection (aka a significant mount of time recording, re-recording, and editing), and I prefer the more "human" aspect of giving a talk live.
 - Please provide some level of moderation in the chat. This should align with your code of conduct.
 
 ## Final thoughts
 
 Thank you so much for reading this! If you have any questions, you can always send me an email. Huge thank you to [Cassidy](https://cass.run/rider) for providing the template for this rider!
 
-_This rider was last updated July 9, 2024._
+_This rider was last updated October 1, 2025._
