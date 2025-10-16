@@ -43,12 +43,12 @@ If you're interested in deepening your leadership capabilities, join me for my l
 
 **Over 100 individual contributors and managers** have already enhanced their leadership capabilities through this interactive cohort with live sessions, direct feedback, and a collaborative learning experience.
 
-**Next session: October 21-31, 2025** (last session of 2025!)
+**Next session: January 20-30, 2026**
 
 <div class="flex items-center justify-center mt-8">
   <a class="flex items-center justify-center px-4 py-2 text-main bg-main border border-main rounded-full transition hover:bg-muted text-md italic font-serif"
      href='https://maven.com/kellyvaughn/engineering-management'>
-    Sign up for the October cohort
+    Sign up for the January cohort
   </a>
 </div>
 
@@ -57,3 +57,11 @@ If you're interested in deepening your leadership capabilities, join me for my l
 ### Interested in corporate training or a workshop for your event?
 
 I also offer personalized leadership training for conference attendees and teams. [Get in touch](/contact) to discuss corporate and workshop rates.
+
+---
+
+### Want to share your management story?
+
+In early 2026 I'm kicking off a new video series called **The Modern Leader Conversations** where I interview other engineering leaders about their career journey and talk through a mistake they made that shaped who they are as a leader.
+
+I'd love to talk to you! You can fill out the quick interest form [here](https://modernleader.is/conversations).
